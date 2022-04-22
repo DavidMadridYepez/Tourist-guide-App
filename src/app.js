@@ -6,8 +6,6 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-      </Routes>
     </BrowserRouter>
   );
 }
