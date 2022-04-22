@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className={`md:hidden ${click ? 'display transition duration-500' : 'translate-x-full transition duration-500'}`}>
+      <div className={`-translate-x-full ${click ? 'transition duration-500' : 'translate-x-0  transition duration-500'}`}>
         <Slidebar />
       </div>
       <nav className={`static md:flex md:justify-between bg-slate-700 text-white `}>
