@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div>
       <div className={`-translate-x-full ${click ? 'transition duration-500' : 'translate-x-0  transition duration-500'}`}>
-        <Slidebar />
+        <Slidebar handleClick={handleClick} />
       </div>
       <nav className={`static md:flex md:justify-between bg-slate-700 text-white `}>
         <div className={`flex justify-between px-10 items-center py-5`}>
