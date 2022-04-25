@@ -9,10 +9,10 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className={`md:hidden -translate-x-full ${click ? 'transition duration-500 translate-x-0' : 'transition duration-500'}`}>
+      <div className={`md:hidden absolute -translate-x-full ${click ? 'transition duration-500 translate-x-0' : 'transition duration-500'}`}>
         <Slidebar handleClick={handleClick} />
       </div>
-      <nav className={`md:flex md:justify-between bg-slate-700 text-white `}>
+      <nav className={`md:flex md:justify-between bg-neutral-900 text-white `}>
         <div className={`flex justify-between px-10 items-center py-5`}>
           <i>logo</i>
           <button className={`md:hidden absolute top-5 right-5 ${click ? 'transition duration-300 -rotate-90' : 'transition duration-300 rotate-0'}`} onClick={handleClick}><FaBars /></button>
