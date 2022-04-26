@@ -2,12 +2,12 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='bg-neutral-800 font-bold text-white border-box py-10'>
-      <h1 className='text-center text-xl md:text-2xl'>Join the Adventure newsletter to recieve our best vacations deals</h1>
-      <h3 className='text-center md:text-xl'>You can subscribe at any time</h3>
-      <div className='flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 justify-center items-center'>
-        <input className='p-2 rounded' type="text" placeholder='Enter your email' />
-        <button className='border-2 py-2 px-5 text-white font-bold border-white rounded'>Subscribe</button>
+    <div className='bg-neutral-800 font-bold text-white border-box py-20 px-5'>
+      <h1 className='text-center text-xl md:text-2xl mb-5'>Join the Adventure newsletter to recieve our best vacations deals</h1>
+      <h3 className='text-center md:text-xl mb-5'>You can subscribe at any time</h3>
+      <div className='flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 justify-center items-center mb-10'>
+        <input className='w-80 md:w-fit px-3 text-black py-2 rounded' type="text" placeholder='Enter your email' />
+        <button className='w-80 md:w-fit font-bold transition px-6 py-2 duration-500 hover:bg-white hover:text-black rounded border-2 border-white'>Subscribe</button>
       </div>
       <div className='flex md:space-x-10 flex-wrap justify-center'>
         <div className='w-40 m-3'>
