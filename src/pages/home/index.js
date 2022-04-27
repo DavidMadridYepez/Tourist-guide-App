@@ -19,11 +19,8 @@ function index(handleClick) {
           </button>
         </div>
       </div>
-      <div>
-        <Cards />
-      </div>
+      <Cards />
     </div>
-
   )
 }
 
